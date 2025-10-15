@@ -1,0 +1,79 @@
+/* EmployeeForm.css */
+
+
+div {
+  margin: 10px 0;
+  text-align: center;
+}
+
+
+h3 {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+
+input,
+select {
+  display: block;
+  width: 100%;
+  max-width: 400px; /* increased width */
+  margin: 8px auto;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: #f0f8ff;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input:focus,
+select:focus {
+  background: #fff;
+  border-color: #ff6a00;
+  box-shadow: 0 0 8px rgba(255, 106, 0, 0.5);
+  outline: none;
+}
+
+
+button {
+  margin: 8px 5px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(91, 134, 229, 0.5);
+}
+
+
+button:nth-child(2) {
+  background: linear-gradient(135deg, #ff5858, #f09819);
+}
+
+button:nth-child(2):hover {
+  box-shadow: 0 4px 10px rgba(255, 88, 88, 0.6);
+}
+
+
+div > div {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 700px;  /* 🟡 Increased from 400px to 700px */
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
